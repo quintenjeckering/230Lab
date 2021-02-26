@@ -1,3 +1,7 @@
+<?php
+require 'includes/header.php'
+?>
+
 <body>
     <link rel="stylesheet" href="css/about.css">
 
@@ -54,11 +58,11 @@
             and love for art make him the perfect person for judging the graphics and art-style of games. Next we have JunkRat, whose love for explosions and action
             is unparalleled, making him a great judge for the action contained in a game. Third we have Steve, whose reputation preceedes him. There is nothing
             this guy can't build, making him the master of creativity. Lastly we have Quinten Jeckering, the head critic who gives the final review of games based upon
-            the input from his coworkers.
+            the input from his puny subordinates.
         
         </p>
     
     
     
     </div>
-</body>
+</body> 
