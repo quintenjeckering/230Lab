@@ -26,7 +26,7 @@ session_start()
 </head>
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Fanatic</a>
+        <a class="navbar-brand" href="#">GameReview</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -39,8 +39,14 @@ session_start()
                     <a class="nav-link" href="includes/logout.php">Logout</a>
                     </li>
                     <li class = "nav-item">
+                        <a class = "nav-link" href="gallery.php">Gallery</a>
+                    </li>
+                    <li class = "nav-item">
                         <a class = "nav-link" href="profile.php">Profile</a>
-                    <li>';
+                    </li>
+                    <li class = "nav-item">
+                        <a class = "nav-link" href="admin.php">Admin</a>
+                    </li>';
                 }
                 else{
                     echo '<li class= "nav-item">
